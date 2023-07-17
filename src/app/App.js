@@ -13,7 +13,6 @@ import { LayoutSplashScreen, MaterialThemeProvider } from "../_metronic/layout";
 import { SnackbarProvider } from "notistack";
 import { SnackbarUtilsConfigurator } from "./notistack";
 
-
 export default function App({ store, persistor, basename }) {
   return (
     /* Provide Redux store */
