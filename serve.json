@@ -1,0 +1,17 @@
+{
+  "public": "_site",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/admin"
+      
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/admin/**",
+      "destination": "/admin/index.html"
+    }
+  ]
+}
+

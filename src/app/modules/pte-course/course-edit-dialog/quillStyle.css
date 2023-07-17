@@ -1,0 +1,22 @@
+/* .ql-editor{
+    min-height: 300px !important;
+  } */
+
+  .ql-container {
+    height: 300px !important;
+    width: 100%;
+  }
+
+  .quill.ql-editor {
+    padding: 0;
+  }
+
+  .ql-editor {
+    padding: 20px;
+  }
+
+  .ql-tooltip.ql-editing[data-mode="video"], .ql-tooltip.ql-editing[data-mode="link"] {
+    position: absolute;
+    left: 270px !important;
+    top: 0 !important;
+  }
